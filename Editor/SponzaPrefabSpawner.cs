@@ -7,7 +7,7 @@ namespace UnityEssentials
     {
         [MenuItem("GameObject/Essentials/Environments/Sponza", false, priority = 200)]
         private static void SpawnPrefab(MenuCommand menuCommand) =>
-            ResourceLoaderEditor.InstantiatePrefab("UnityEssentials_Prefab_Sponza", "Sponza");
+            AssetResolverEditor.InstantiatePrefab("UnityEssentials_Prefab_Sponza", "Sponza");
     }
 }
 #endif
